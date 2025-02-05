@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Feb 05 10:33:33 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>83 seconds (83246 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='insuranceCalculation_Motorcycle.EndToEndTests_motorcycle.insuranceCalculate()'><b>insuranceCalculate</b><br>Test class: insuranceCalculation_Motorcycle.EndToEndTests_motorcycle<br>Parameters: {Product_startdate=04/10/2025, PriceValidation_Gold=87, SendQuote_Password=Password3, TC No=3, Vehicle_Annual Mileage=100, Product_insurancesum=3.000.000,00, Vehicle_Date of Manufacture=01/01/2009, SelectOption=Ultimate, SendQuote_ConfirmPassword=Password3, PriceValidation_Ultimate=967, SendQuote_Email=demo3@gmail.com, PriceValidation_Silver=258, Vehicle_Make=Ford, Vehicle_Engine Performance=100, Insurant_occupation=Farmer, Vehicle_No of Seats_motorcycle=2, Insurant_LastName=Rajput, Product_OptionalProducts=Euro Protection, Vehicl_ListPrice=1000, Insurant_ImageFilePath=??, Insurant_Hobbies=Speeding,Cliff Diving, Vehicle_Model=Moped, Insurant_country=India, SendQuote_Username=user3, Insurant_zipcode=207247, Product_damageinsurance= Full Coverage, TC Name=Verify Insurance Premium for Ford Moped, Vehicle_CylinderCapacity=100, PriceValidation_Platinum=507, Insurant_FirstName=Akash, Insurant_birthdate=07/17/2002, Insurant_gender=Male}</td>
+<td></td>
+<td>18</td>
+<td>insuranceCalculation_Motorcycle.EndToEndTests_motorcycle@73173f63</td></tr>
+<tr>
+<td title='insuranceCalculation_Motorcycle.EndToEndTests_motorcycle.insuranceCalculate()'><b>insuranceCalculate</b><br>Test class: insuranceCalculation_Motorcycle.EndToEndTests_motorcycle<br>Parameters: {Product_startdate=04/01/2025, PriceValidation_Gold=238, SendQuote_Password=Password2, TC No=2, Vehicle_Annual Mileage=100, Product_insurancesum=20.000.000,00, Vehicle_Date of Manufacture=02/15/2023, SelectOption=Gold, SendQuote_ConfirmPassword=Password2, PriceValidation_Ultimate=2626, SendQuote_Email=demo2@gmail.com, PriceValidation_Silver=702, Vehicle_Make=Volvo, Vehicle_Engine Performance=900, Insurant_occupation=Farmer, Vehicle_No of Seats_motorcycle=2, Insurant_LastName=Rajput, Product_OptionalProducts=Euro Protection, Vehicl_ListPrice=888, Insurant_ImageFilePath=??, Insurant_Hobbies=Bungee Jumping,Other, Vehicle_Model=Scooter, Insurant_country=India, SendQuote_Username=user2, Insurant_zipcode=207247, Product_damageinsurance= Partial Coverage, TC Name=Verify Insurance Premium for Volvo Scooter, Vehicle_CylinderCapacity=900, PriceValidation_Platinum=1379, Insurant_FirstName=Ritu, Insurant_birthdate=07/29/2001, Insurant_gender=Femal}</td>
+<td></td>
+<td>19</td>
+<td>insuranceCalculation_Motorcycle.EndToEndTests_motorcycle@73173f63</td></tr>
+<tr>
+<td title='insuranceCalculation_Motorcycle.EndToEndTests_motorcycle.insuranceCalculate()'><b>insuranceCalculate</b><br>Test class: insuranceCalculation_Motorcycle.EndToEndTests_motorcycle<br>Parameters: {Product_startdate=03/20/2025, PriceValidation_Gold=238, SendQuote_Password=Password1, TC No=1, Vehicle_Annual Mileage=100, Product_insurancesum=5.000.000,00, Vehicle_Date of Manufacture=01/01/2022, SelectOption=Silver, SendQuote_ConfirmPassword=Password1, PriceValidation_Ultimate=2621, SendQuote_Email=demo1@gmail.com, PriceValidation_Silver=701, Vehicle_Make=Honda, Vehicle_Engine Performance=666, Insurant_occupation=Farmer, Vehicle_No of Seats_motorcycle=2, Insurant_LastName=Verma, Product_OptionalProducts=Euro Protection, Vehicl_ListPrice=888, Insurant_ImageFilePath=??, Insurant_Hobbies=Speeding,Skydiving, Vehicle_Model=Motorcycle, Insurant_country=India, SendQuote_Username=user1, Insurant_zipcode=207247, Product_damageinsurance= Partial Coverage, TC Name=Verify Insurance Premium for Honda Motorcycle, Vehicle_CylinderCapacity=333, PriceValidation_Platinum=1376, Insurant_FirstName=Ram, Insurant_birthdate=08/07/2000, Insurant_gender=Male}</td>
+<td></td>
+<td>19</td>
+<td>insuranceCalculation_Motorcycle.EndToEndTests_motorcycle@73173f63</td></tr>
+</table><p>
+</body>
+</html>
